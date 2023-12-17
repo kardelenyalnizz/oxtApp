@@ -10,7 +10,7 @@ function Navigation() {
   return (
     <NavigationContainer>
       <Tab.Navigator>
-        <Tab.Screen name="Home" component={HomeScreen} />
+        <Tab.Screen name="HomePage" component={HomeScreen} />
         <Tab.Screen name="Settings" component={SettingsScreen} />
       </Tab.Navigator>
     </NavigationContainer>
